@@ -50,7 +50,7 @@ function Faq() {
           className=" mx-auto relative max-w-[800px] px-2 "
         >
           <Accordion
-            className={`border-[#C5C5C5] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
+            className={`border-[#C5C5C5] bg-[#09655A] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
               open === 1 ? "rounded-[26px] sm:rounded-[45px] " : "rounded-full"
             }`}
             open={open === 1}
@@ -58,18 +58,18 @@ function Faq() {
           >
             <AccordionHeader
               onClick={() => handleOpen(1)}
-              className="font-balsamiq text-[11px] sm:text-[16px] md:text-[20px] text-start font-bold text-white w-full justify-between"
+              className="font-bal text-[11px] sm:text-[16px] md:text-[20px] text-start font-bold text-white w-full justify-between"
             >
               Maecenas laoreet, sapien vel cursus ultricies?
             </AccordionHeader>
-            <AccordionBody className="font-balsamiq text-[14px] md:text-[16px] font-medium text-white max-w-[600px] pt-3 ">
+            <AccordionBody className="font-bal text-[14px] md:text-[16px] font-medium text-white max-w-[600px] pt-3 ">
               Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
               sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus
               ultricies? Maecenas laoreet, sapien vel cursus ultricies?{" "}
             </AccordionBody>
           </Accordion>
           <Accordion
-            className={`border-[#C5C5C5] border mb-4 overflow-hidden rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
+            className={`border-[#C5C5C5] border bg-[#09655A] mb-4 overflow-hidden rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
               open === 2 ? "rounded-[26px] sm:rounded-[45px]" : "rounded-full"
             }`}
             open={open === 2}
@@ -77,19 +77,19 @@ function Faq() {
           >
             <AccordionHeader
               onClick={() => handleOpen(2)}
-              className="font-balsamiq text-[11px] sm:text-[16px] md:text-[20px] text-start font-bold text-white"
+              className="font-bal text-[11px] sm:text-[16px] md:text-[20px] text-start font-bold text-white"
             >
               {" "}
               Maecenas laoreet, sapien vel cursus ultricies?
             </AccordionHeader>
-            <AccordionBody className="font-balsamiq text-[14px] md:text-[16px] font-medium text-white max-w-[600px] pt-3 ">
+            <AccordionBody className="font-bal text-[14px] md:text-[16px] font-medium text-white max-w-[600px] pt-3 ">
               Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
               sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus
               ultricies? Maecenas laoreet, sapien vel cursus ultricies?{" "}
             </AccordionBody>
           </Accordion>
           <Accordion
-            className={`border-[#C5C5C5] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
+            className={`border-[#C5C5C5] border bg-[#09655A] mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
               open === 3 ? "rounded-[26px] sm:rounded-[45px]" : "rounded-full"
             }`}
             open={open === 3}
@@ -97,18 +97,18 @@ function Faq() {
           >
             <AccordionHeader
               onClick={() => handleOpen(3)}
-              className="font-balsamiq text-[11px] sm:text-[16px] md:text-[20px] text-start font-bold text-white"
+              className="font-bal text-[11px] sm:text-[16px] md:text-[20px] text-start font-bold text-white"
             >
               Maecenas laoreet, sapien vel cursus ultricies?
             </AccordionHeader>
-            <AccordionBody className="font-balsamiq text-[14px] md:text-[16px] font-medium text-white max-w-[600px] pt-3 ">
+            <AccordionBody className="font-bal text-[14px] md:text-[16px] font-medium text-white max-w-[600px] pt-3 ">
               Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
               sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus
               ultricies? Maecenas laoreet, sapien vel cursus ultricies?{" "}
             </AccordionBody>
           </Accordion>
           <Accordion
-            className={`border-[#C5C5C5] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
+            className={`border-[#C5C5C5] border bg-[#09655A] mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
               open === 4 ? "rounded-[26px] sm:rounded-[45px]" : "rounded-full"
             }`}
             open={open === 4}
@@ -116,18 +116,18 @@ function Faq() {
           >
             <AccordionHeader
               onClick={() => handleOpen(4)}
-              className="font-balsamiq text-[11px] sm:text-[16px] md:text-[20px] text-start font-bold text-white"
+              className="font-bal text-[11px] sm:text-[16px] md:text-[20px] text-start font-bold text-white"
             >
               Maecenas laoreet, sapien vel cursus ultricies?
             </AccordionHeader>
-            <AccordionBody className="font-balsamiq text-[14px] md:text-[16px] font-medium text-white max-w-[600px] pt-3 ">
+            <AccordionBody className="font-bal text-[14px] md:text-[16px] font-medium text-white max-w-[600px] pt-3 ">
               Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
               sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus
               ultricies? Maecenas laoreet, sapien vel cursus ultricies?{" "}
             </AccordionBody>
           </Accordion>
           <Accordion
-            className={`border-[#C5C5C5] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
+            className={`border-[#C5C5C5] border bg-[#09655A] mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${
               open === 5 ? "rounded-[26px] sm:rounded-[45px]" : "rounded-full"
             }`}
             open={open === 5}
@@ -139,7 +139,7 @@ function Faq() {
             >
               Maecenas laoreet, sapien vel cursus ultricies?
             </AccordionHeader>
-            <AccordionBody className="font-balsamiq text-[14px] md:text-[16px] font-medium text-white max-w-[600px] pt-3 ">
+            <AccordionBody className="font-bal bg-[#09655A] text-[14px] md:text-[16px] font-medium text-white max-w-[600px] pt-3 ">
               Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet,
               sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus
               ultricies? Maecenas laoreet, sapien vel cursus ultricies?{" "}
