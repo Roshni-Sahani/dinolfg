@@ -13,6 +13,7 @@ import 'aos/dist/aos.css';
 import Aos from 'aos';
 import Loader from './Components/Loader';
 
+
 function App() {
   // ----------------backToTop----------------
   const top = () => {
@@ -59,7 +60,7 @@ function App() {
       <Roadmap/>
       <Faq />
       <Footer />
-       <div onClick={() => top()} className={backToTop ? "shadow-[0_5px_16px_rgba(225,_225,_225,_1)] fixed bottom-[3%] h-[50px] w-[50px] flex items-center justify-center backTopBtn rounded-[50px] bg-[#65AD41] cursor-pointer border-[2px] border-solid border-white transition-all ease-linear duration-300 right-[2%] z-[2]" : "hidden"}>
+       <div onClick={() => top()} className={backToTop ? "shadow-[0_5px_16px_rgba(225,_225,_225,_1)] fixed bottom-[3%] h-[50px] w-[50px] flex items-center justify-center backTopBtn rounded-[50px] bg-[#65AD41] cursor-pointer border-[2px] border-solid border-white transition-all ease-linear duration-300 right-[2%] z-[10]" : "hidden"}>
             <img src={BackToTop} alt='BackToTop' />
           </div>
       
